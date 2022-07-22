@@ -1,4 +1,5 @@
 import express from "express";
+import checkToken from "./src/config/auth/checkToken.js";
 import * as db from "./src/config/db/initialData.js";
 import UserRoutes from './src/modules/user/routes/UserRoutes.js';
 
